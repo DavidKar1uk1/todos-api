@@ -1,0 +1,16 @@
+require './lib/k2_connect_ruby_api_gem.rb'
+client = K2ConnectRubyApiGem::Client.new("your access token").parse_it()
+
+client.parse_it()
+
+title=Mozart created_by=Voila
+
+http://localhost:3002/todos
+
+/home/k2-engineering-03/RubymineProjects/k2_exported_JSON.json
+
+1st level keys
+ info, item
+2nd level keys within 'item'
+	
+
