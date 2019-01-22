@@ -43,10 +43,14 @@ class TodosController < ApplicationController
 
   # POST /parse
   def receive
-    # The Next two Lines are the same.
-    puts("\n\nHello there. The parameters are #{request.body.string}\n\n")
-    # puts("\n\nHello there. The Response is#{request.POST}")
-    K2ConnectRubyApiGem::Client.new("your access token").parse_it(request.body.to_json)
+    # This is for the body
+    req_body = request.body.string
+    # This is for the headers
+    req_headers = request.headers.env.select{|k, _| k =~ /^HTTP_/}
+    # Output is:
+    # puts("\n\nHello there. The Request Body is #{req_body}\n\n")
+    # puts("\n\nHello there. The Request Header is #{req_headers}\n\n")
+    K2ConnectRubyApiGem::Client.new("your access token").parse_it(req_body.to_json, req_headers.to_json)
 
 
   end

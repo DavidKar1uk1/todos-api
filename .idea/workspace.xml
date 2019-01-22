@@ -3,16 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ec2170fc-51df-400a-9eda-866541b04758" name="Default Changelist" comment="First attempt, finished, sending details. Next is authentication.">
       <change beforePath="$PROJECT_DIR$/.idea/api_trial_one.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_trial_one.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/api_trial_one1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/api_trial_one1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_trial_one/app/controllers/concerns/exception_handler.rb" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/app/controllers/concerns/exception_handler.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_trial_one/app/controllers/items_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_trial_one/bin/rails" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/bin/rails" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_trial_one/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_trial_one/config/puma.rb" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/config/puma.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_trial_one/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_trial_one/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_trial_one/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/spec/rails_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_trial_one/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_trial_one/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,12 +44,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="374">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -62,16 +57,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api_trial_one/Gemfile.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+            <state relative-caret-position="422">
+              <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api_trial_one/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
+            <state relative-caret-position="337">
               <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
             </state>
           </provider>
@@ -93,6 +88,7 @@
       <find>Parame</find>
       <find>webr</find>
       <find>Rails</find>
+      <find>env</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,8 +119,8 @@
         <option value="$PROJECT_DIR$/api_trial_one/config/routes.rb" />
         <option value="$PROJECT_DIR$/api_trial_one/app/auth/authenticate_user.rb" />
         <option value="$PROJECT_DIR$/api_trial_one/app/k2_test_lib/k2_authorize.rb" />
-        <option value="$PROJECT_DIR$/api_trial_one/Gemfile" />
         <option value="$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb" />
+        <option value="$PROJECT_DIR$/api_trial_one/Gemfile" />
       </list>
     </option>
   </component>
@@ -140,6 +136,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -175,14 +173,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/kopo-kopo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -416,6 +412,8 @@
       <workItem from="1548051105443" duration="6721000" />
       <workItem from="1548060459449" duration="1512000" />
       <workItem from="1548063260309" duration="13907000" />
+      <workItem from="1548138759022" duration="318000" />
+      <workItem from="1548140297910" duration="6981000" />
     </task>
     <servers />
   </component>
@@ -428,7 +426,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81204000" />
+    <option name="totallyTimeSpent" value="88503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,7 +441,7 @@
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3068182" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31742424" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -665,24 +663,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_trial_one/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="73" column="23" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api_trial_one/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_trial_one/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -707,10 +691,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/actionpack-5.2.2/lib/action_dispatch/http/request.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/actionpack-5.2.2/lib/action_controller/metal.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_trial_one/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="374">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_trial_one/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,9 @@
 require './lib/k2_connect_ruby_api_gem.rb'
 client = K2ConnectRubyApiGem::Client.new("your access token").parse_it()
+data = ["5c62451a809ad341a8bbcf6cd2b0e7d8efb9cd9ddf1765f5a1205a28edfde0d9"]
+set = data.to_s.gsub(/[()]/, "")
+set = JSON.parse(data.to_s).join(', ')
+client = K2ConnectRubyApiGem::Client.new("your access token").authorize_it("h", set)
 
 client.parse_it()
 
