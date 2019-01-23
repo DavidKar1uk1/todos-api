@@ -43,16 +43,7 @@ class TodosController < ApplicationController
 
   # POST /parse
   def receive
-    # This is for the body
-    req_body = request.body.string
-    # This is for the headers
-    req_headers = request.headers.env.select{|k, _| k =~ /^HTTP_/}
-    # Output is:
-    # puts("\n\nHello there. The Request Body is #{req_body}\n\n")
-    # puts("\n\nHello there. The Request Header is #{req_headers}\n\n")
-    K2ConnectRubyApiGem::Client.new("your access token").parse_it(req_body.to_json, req_headers.to_json)
-
-
+    K2ConnectRubyApiGem::Client.new("b647be91024bc03fb9e83f92238b973a4c070269").parse_it_whole(response)
   end
 
 end

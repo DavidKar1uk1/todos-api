@@ -19,7 +19,7 @@ gem 'bcrypt', '~> 3.1.7'
 # Manage JSON web tokens
 gem 'jwt'
 # For manipulating the JSON data
-gem 'k2_connect_ruby_api_gem', '~> 0.5.8'
+gem 'k2_connect_ruby_api_gem', '~> 0.6.8'
 gem 'hashie'
 gem 'yajl-ruby'
 
