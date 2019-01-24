@@ -43,7 +43,9 @@ class TodosController < ApplicationController
 
   # POST /parse
   def receive
-    K2ConnectRubyApiGem::Client.new("b647be91024bc03fb9e83f92238b973a4c070269").parse_it_whole(response)
+    # test = JSON.parse(request.body.string).as_json
+    response.status = K2ConnectRubyApiGem::Client.new("#{ENV["K2_SECRET_KEY"].to_s}").parse_it_whole(request)
+    puts ("Response Status Code: #{response.code}\nResponse Message: #{response.message}")
   end
 
 end

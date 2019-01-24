@@ -4,9 +4,11 @@
     <list default="true" id="ec2170fc-51df-400a-9eda-866541b04758" name="Default Changelist" comment="First attempt, finished, sending details. Next is authentication.">
       <change beforePath="$PROJECT_DIR$/.idea/modules/api_trial_one1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/api_trial_one1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_trial_one/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_trial_one/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_trial_one/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_trial_one/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/config/application.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="245">
+              <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -65,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api_trial_one/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="99">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -89,6 +91,7 @@
       <find>Rails</find>
       <find>env</find>
       <find>Metal</find>
+      <find>&gt;=</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,9 +122,13 @@
         <option value="$PROJECT_DIR$/api_trial_one/config/routes.rb" />
         <option value="$PROJECT_DIR$/api_trial_one/app/auth/authenticate_user.rb" />
         <option value="$PROJECT_DIR$/api_trial_one/app/k2_test_lib/k2_authorize.rb" />
-        <option value="$PROJECT_DIR$/api_trial_one/Gemfile" />
-        <option value="$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb" />
         <option value="$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby_api_gem-0.6.7/lib/k2_connect_ruby_api_gem/client.rb" />
+        <option value="$PROJECT_DIR$/api_trial_one/Gemfile" />
+        <option value="$PROJECT_DIR$/api_trial_one/config/beautysecrets.yml" />
+        <option value="$PROJECT_DIR$/api_trial_one/.gitignore" />
+        <option value="$PROJECT_DIR$/api_trial_one/config/beauty_secrets.yml" />
+        <option value="$PROJECT_DIR$/api_trial_one/config/application.rb" />
+        <option value="$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb" />
       </list>
     </option>
   </component>
@@ -137,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
@@ -174,18 +180,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/kopo-kopo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.settings.patched" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -415,7 +422,8 @@
       <workItem from="1548063260309" duration="13907000" />
       <workItem from="1548138759022" duration="318000" />
       <workItem from="1548140297910" duration="6981000" />
-      <workItem from="1548227855606" duration="12911000" />
+      <workItem from="1548227855606" duration="13265000" />
+      <workItem from="1548310745700" duration="16715000" />
     </task>
     <servers />
   </component>
@@ -428,7 +436,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101414000" />
+    <option name="totallyTimeSpent" value="118483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,7 +451,7 @@
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32272726" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3280303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -477,16 +485,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="First attempt, finished, sending details. Next is authentication." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b41e8c00-bdb1-4fd9-80b0-222f5d8b4557/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_trial_one/app/models/item.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/api_trial_one/db/migrate/20190113181201_create_todos.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -679,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_trial_one/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api_trial_one/config/boot.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -700,24 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_trial_one/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/actionpack-5.2.2/lib/action_controller/metal.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2178">
           <caret line="69" column="53" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_trial_one/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -728,10 +705,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api_trial_one/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby_api_gem-0.7.15/lib/k2_connect_ruby_api_gem/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby_api_gem-0.7.25/lib/k2_connect_ruby_api_gem/client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="19" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby_api_gem-0.7.26/lib/k2_connect_ruby_api_gem/client.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_trial_one/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_trial_one/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_trial_one/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_trial_one/config/beauty_secrets.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="245">
+          <caret line="45" column="52" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
         </state>
       </provider>
     </entry>
