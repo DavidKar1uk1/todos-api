@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec2170fc-51df-400a-9eda-866541b04758" name="Default Changelist" comment="First attempt, finished, sending details. Next is authentication.">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/api_trial_one1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/api_trial_one1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_trial_one/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_trial_one/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_trial_one/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_trial_one/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/api_trial_one/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kuchoka" beforeDir="false" afterPath="$PROJECT_DIR$/kuchoka" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +41,20 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>request</find>
       <find>request_obj</find>
       <find>initialize</find>
       <find>http_auth_header</find>
@@ -66,7 +71,15 @@
       <find>&gt;=</find>
       <find>k</find>
       <find>yajl</find>
+      <find>activesupp</find>
+      <find>request</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby-0.8.1/lib/k2_connect_ruby</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/api_trial_one" />
@@ -118,7 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,19 +153,25 @@
               <item name="api_trial_one" type="b2602c69:ProjectViewProjectNode" />
               <item name="api_trial_one" type="462c0819:PsiDirectoryNode" />
               <item name="api_trial_one" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="api_trial_one" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../k2_connect_ruby_api_gem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -392,7 +410,8 @@
       <workItem from="1548227855606" duration="13265000" />
       <workItem from="1548310745700" duration="16720000" />
       <workItem from="1548397918075" duration="1932000" />
-      <workItem from="1548402186845" duration="10961000" />
+      <workItem from="1548402186845" duration="11088000" />
+      <workItem from="1548422187724" duration="2116000" />
     </task>
     <servers />
   </component>
@@ -405,7 +424,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131381000" />
+    <option name="totallyTimeSpent" value="133624000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,8 +437,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33863637" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3439394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -432,7 +452,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49924242" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49924242" visible="true" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007576" side_tool="true" />
       <window_info anchor="bottom" id="Database Console" order="12" />
       <window_info anchor="bottom" id="Inspection Results" order="13" />
@@ -453,9 +473,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="First attempt, finished, sending details. Next is authentication." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api_trial_one/config/credentials.yml.enc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/api_trial_one/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -640,35 +657,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/actionpack-5.2.2/lib/action_controller/metal.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2178">
-          <caret line="69" column="53" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby_api_gem-0.6.7/lib/k2_connect_ruby_api_gem/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-514">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby_api_gem-0.7.15/lib/k2_connect_ruby_api_gem/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby_api_gem-0.7.25/lib/k2_connect_ruby_api_gem/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="19" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby_api_gem-0.7.26/lib/k2_connect_ruby_api_gem/client.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby_api_gem-0.6.7/lib/k2_connect_ruby_api_gem/client.rb" />
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby_api_gem-0.7.15/lib/k2_connect_ruby_api_gem/client.rb" />
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby_api_gem-0.7.25/lib/k2_connect_ruby_api_gem/client.rb" />
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby_api_gem-0.7.26/lib/k2_connect_ruby_api_gem/client.rb" />
     <entry file="file://$PROJECT_DIR$/api_trial_one/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -693,29 +685,10 @@
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby-0.8.1/lib/k2_connect_ruby/k2_authorize.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby-0.8.1/lib/k2_connect_ruby/k2_client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby-0.8.1/lib/k2_connect_ruby/client.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby-0.8.1/lib/k2_connect_ruby/k2_split_request.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="31" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_trial_one/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -733,10 +706,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/activesupport-5.2.2/lib/active_support/core_ext/string/output_safety.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="136" column="50" selection-start-line="136" selection-start-column="50" selection-end-line="136" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_trial_one/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby-0.8.1/lib/k2_connect_ruby/k2_client.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/k2_connect_ruby-0.8.1/lib/k2_connect_ruby/client.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.5.0/gems/actionpack-5.2.2/lib/action_controller/metal.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="188" column="17" selection-start-line="188" selection-start-column="10" selection-end-line="188" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api_trial_one/app/controllers/todos_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+        <state relative-caret-position="63">
+          <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
         </state>
       </provider>
     </entry>

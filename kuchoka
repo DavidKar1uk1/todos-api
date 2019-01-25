@@ -16,5 +16,13 @@ http://localhost:3002/todos
 1st level keys
  info, item
 2nd level keys within 'item'
+
+    # Test Yajl
+    # test = Yajl::Parser.parse(request.headers.env.select{|k, _| k =~ /^HTTP_/}.to_json)
+    # puts(test["HTTP_X_KOPOKOPO_SIGNATURE"])
+    # test = Yajl::Parser.parse(request.body.string)
+    # puts(test["event"]["resource"][""])
+
+
 	
 
