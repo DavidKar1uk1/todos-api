@@ -19,13 +19,13 @@ gem 'bcrypt', '~> 3.1.7'
 # Manage JSON web tokens
 gem 'jwt'
 # For manipulating the JSON data
-gem 'k2_connect_ruby_api_gem', '>= 0.7.29'
+# gem 'k2_connect_ruby', '>= 0.7.29'
 gem 'hashie'
-gem 'yajl-ruby'
 
 # YAJl-ruby for parsing
-# gem 'yajl-ruby', require: 'yajl'
+gem 'yajl-ruby', require: 'yajl'
 
+gem 'k2_connect_ruby', '>=0.8.1'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
