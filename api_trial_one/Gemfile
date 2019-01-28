@@ -25,7 +25,8 @@ gem 'hashie'
 # YAJl-ruby for parsing
 gem 'yajl-ruby', require: 'yajl'
 
-gem 'k2_connect_ruby', '>=0.8.1'
+gem 'k2_connect_ruby', '~> 0.9.1', git: 'https://github.com/DavidKar1uk1/k2_connect_ruby.git', branch: 'test', submodules: true
+# git: 'https://github.com/DavidKar1uk1/k2_connect_ruby.git', branch: 'test', submodules: true
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
