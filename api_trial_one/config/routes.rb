@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   # Route for receiving the JSON response and params
   post '/parse', to: 'todos#receive'
   # post 'auth/login', to: 'authentication#authenticate'
+  # Route for the Webhook Subscription
+  post '/subscription', to: 'todos#subscribe'
 end
