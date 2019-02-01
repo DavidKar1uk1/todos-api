@@ -18,14 +18,18 @@ gem 'bcrypt', '~> 3.1.7'
 
 # Manage JSON web tokens
 gem 'jwt'
-# For manipulating the JSON data
-# gem 'k2_connect_ruby', '>= 0.7.29'
-gem 'hashie'
+# For Design
+gem 'uglifier'
+gem 'jbuilder'
+gem 'sass-rails'
+gem 'coffee-rails'
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
 
 # YAJl-ruby for parsing
 gem 'yajl-ruby', require: 'yajl'
 
-gem 'k2_connect_ruby', '~> 0.9.1', git: 'https://github.com/DavidKar1uk1/k2_connect_ruby.git', branch: 'test', submodules: true
+gem 'k2_connect_ruby', '~> 0.9.6', git: 'https://github.com/DavidKar1uk1/k2_connect_ruby.git', branch: 'test', submodules: true
 # git: 'https://github.com/DavidKar1uk1/k2_connect_ruby.git', branch: 'test', submodules: true
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'

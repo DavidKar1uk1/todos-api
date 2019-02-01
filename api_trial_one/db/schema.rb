@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2019_01_14_132559) do
     t.index ["todo_id"], name: "index_items_on_todo_id"
   end
 
-  create_table "todos", force: :cascade do |t|
+  create_table "todo", force: :cascade do |t|
     t.string "title"
     t.string "created_by"
     t.datetime "created_at", null: false
@@ -39,5 +39,5 @@ ActiveRecord::Schema.define(version: 2019_01_14_132559) do
     t.datetime "updated_at", null: false
   end
 
-  add_foreign_key "items", "todos"
+  add_foreign_key "items", "todo"
 end

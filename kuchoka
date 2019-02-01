@@ -44,4 +44,111 @@ http://localhost:3002/todos
     # end
 
 
-	
+	# Method for the Basic Get request. Not Necessary
+    # def get_request
+    #   k2_url = URI("https://a54fac07-5ac2-4ee2-8fcb-e3d5ac3ba8b1.mock.pstmn.io/")
+    #   k2_https = Net::HTTP.new(k2_url.host, k2_url.port)
+    #   k2_https.use_ssl =true
+    #   k2_https_response = k2_https.get URI(k2_url)
+    #   puts(k2_https_response.body.to_s)
+    # rescue Exception => e
+    #   puts(e.message)
+    # end
+
+# Method for webhook subscribing for buygood_transaction_received
+    # def received_webhook_subscribe(access_token)
+    #   # valid_access_token(access_token) and return
+    #   k2_url = URI.parse("https://a54fac07-5ac2-4ee2-8fcb-e3d5ac3ba8b1.mock.pstmn.io/webhook-subscription")
+    #   k2_https = Net::HTTP.new(k2_url.host, k2_url.port)
+    #   k2_https.use_ssl =true
+    #   k2_https.verify_mode =OpenSSL::SSL::VERIFY_NONE
+    #   k2_request =Net::HTTP::Post.new(k2_url)
+    #   k2_request.add_field("Content-Type", "application/json")
+    #   k2_request.add_field("Accept", "application/json")
+    #   k2_request.add_field("Authorization", "Bearer #{access_token}")
+    #   k2_request.body = {
+    #       "event_type": "buygooods_transaction_received",
+    #       "url": "https://myapplication.com/webhooks",
+    #       "secret": "webhook_secret"
+    #   }.to_json
+    #   k2_response = k2_https.request(k2_request)
+    #   puts("\nThe Response:\t#{k2_response.body.to_s}")
+    # rescue Exception => e
+    #   puts(e.message)
+    # end
+
+    # Method for webhook subscribing for buygood_transaction_reversed
+    # def reversals_webhook_subscribe(access_token)
+    #   # valid_access_token(access_token) and return
+    #   k2_url = URI.parse("https://a54fac07-5ac2-4ee2-8fcb-e3d5ac3ba8b1.mock.pstmn.io/buygoods-transaction-reversed")
+    #   k2_https = Net::HTTP.new(k2_url.host, k2_url.port)
+    #   k2_https.use_ssl =true
+    #   k2_https.verify_mode =OpenSSL::SSL::VERIFY_NONE
+
+    #   k2_request =Net::HTTP::Post.new(k2_url)
+    #   k2_request.add_field("Content-Type", "application/json")
+    #   k2_request.add_field("Accept", "application/json")
+    #   k2_request.add_field("Authorization", "Bearer #{access_token}")
+    #   k2_request.body = {
+    #       "event_type": "buygooods_transaction_reversed",
+    #       "url": "https://myapplication.com/webhooks",
+    #       "secret": "webhook_secret"
+    #   }.to_json
+    #   k2_response = k2_https.request(k2_request)
+    #   puts("\nThe Response:\t#{k2_response.body.to_s}")
+    # rescue Exception => e
+    #   puts(e.message)
+    # end
+
+# @token_lifecycle_end = Time.now
+          # unless token_lifecycle(@token_lifecycle_start, @token_lifecycle_end)
+          #   STDERR.puts("Expired Access Token.")
+          #   exit(false)
+          # end
+def nil_request x, y, z
+      raise ArgumentError.new "Nil Request Body Argument!" if x.nil?
+      raise ArgumentError.new "Nil Secret Key Argument!" if y.nil?
+      raise ArgumentError.new "Nil Signature Argument!" if z.nil?
+    end
+def nil_request x
+      raise ArgumentError.new "Nil Request Parameter Input!" if x.nil?
+    end
+# # GET /todos
+  # def index
+  #   @todos = Todo.all
+  #   json_response(@todos)
+  # end
+  #
+  # # POST /todos
+  # def create
+  #   @todo = Todo.create!(todo_params)
+  #   json_response(@todo, :created)
+  # end
+  #
+  # # GET /todos/:id
+  # def show
+  #   json_response(@todo)
+  # end
+  #
+  # # PUT /todos/:id
+  # def update
+  #   @todo.update(todo_params)
+  #   head :no_content
+  # end
+  #
+  # # DELETE /todos/:id
+  # def destroy
+  #   @todo.destroy
+  #   head :no_content
+  # end
+  #
+  # private
+  #
+  # def todo_params
+  #   # whitelist params
+  #   params.permit(:title, :created_by)
+  # end
+  #
+  # def set_todo
+  #   @todo = Todo.find(params[:id])
+  # end

@@ -2,15 +2,15 @@ require 'rails_helper'
 
 RSpec.describe 'Todos API', type: :request do
   # initialize test data
-  let!(:todos) { create_list(:todo, 10) }
+  let!(:todo) { create_list(:todo, 10) }
   let(:todo_id) { todos.first.id }
 
-  # Test Suite for GET /todos
-  describe 'GET /todos' do
+  # Test Suite for GET /todo
+  describe 'GET /todo' do
     # make HTTP requests before each example
-    before {get '/todos' }
+    before {get '/todo' }
 
-    it 'return todos' do
+    it 'return todo' do
       # Note 'json' is a custom helper to parse JSON responses
       expect(json).not_to be_empty
       expect(json.size).to eq(10)
@@ -21,9 +21,9 @@ RSpec.describe 'Todos API', type: :request do
     end
   end
 
-  # Test suite for GET /todos/:id
-  describe 'GET /todos/:id' do
-    before { get "/todos/#{todo_id}" }
+  # Test suite for GET /todo/:id
+  describe 'GET /todo/:id' do
+    before { get "/todo/#{todo_id}" }
 
     context 'when the record exists' do
       it 'returns the todo' do
@@ -49,13 +49,13 @@ RSpec.describe 'Todos API', type: :request do
     end
   end
 
-  # Test suite for POST /todos
-  describe 'POST /todos' do
+  # Test suite for POST /todo
+  describe 'POST /todo' do
     #valid payload
     let(:valid_attributes) { { title: 'Learn Elm', created_by: '1' } }
 
     context 'when the request is valid' do
-      before { post '/todos', params: valid_attributes }
+      before { post '/todo', params: valid_attributes }
 
       it 'creates a todo' do
         expect(json['title']).to eq('Learn Elm')
@@ -67,7 +67,7 @@ RSpec.describe 'Todos API', type: :request do
     end
 
     context 'when the request is invalid' do
-      before { post '/todos', params: { title: 'Foobar' } }
+      before { post '/todo', params: { title: 'Foobar' } }
 
       it 'returns status code 422' do
         expect(response).to have_http_status(422)
@@ -79,12 +79,12 @@ RSpec.describe 'Todos API', type: :request do
     end
   end
 
-  # Test suite for PUT /todos
-  describe 'PUT /todos/:id' do
+  # Test suite for PUT /todo
+  describe 'PUT /todo/:id' do
     let(:valid_attributes) { { title: 'Shopping' } }
 
     context 'when the record exists' do
-      before { put "/todos/#{todo_id}", params: valid_attributes }
+      before { put "/todo/#{todo_id}", params: valid_attributes }
 
       it 'updates the record' do
         expect(response.body).to be_empty
@@ -96,9 +96,9 @@ RSpec.describe 'Todos API', type: :request do
     end
   end
 
-  # Test suite for DELETE /todos/:id
-  describe 'DELETE /todos/:id' do
-    before { delete "/todos/#{todo_id}" }
+  # Test suite for DELETE /todo/:id
+  describe 'DELETE /todo/:id' do
+    before { delete "/todo/#{todo_id}" }
 
     it 'returns status code 204' do
       expect(response).to have_http_status(204)
